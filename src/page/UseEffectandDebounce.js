@@ -1,9 +1,10 @@
 import { useContext, useState } from "react";
 import { useDebounce } from "../component/UseDebounce";
-import { userContext } from "./UseReducerAndUseContrext";
+// import { userContext } from "./UseReducerAndUseContrext";
+import { AuthContext } from "../component/Authcontext";
 
 export const UseEffectandDebounce = () => {
-  const { user } = useContext(userContext);
+  const { user } = useContext(AuthContext);
 
   const [name, setName] = useState("ram");
 
