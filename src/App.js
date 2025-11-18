@@ -9,6 +9,8 @@ import "./App.css";
 import { LoginForm } from "./component/forms/LoginForm";
 import { RouterContext } from "./component/Authcontext";
 import { Trottle } from "./page/TrottleExample";
+import Counter from "./page/TestCounter.js";
+import { SearchWithUseTransition } from "./page/SearchWithUseTransition.js";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Routes>
             <Route path="/login" element={<LoginForm />} />
             <Route path="/trottle" element={<Trottle />} />
+            <Route path="/counter" element={<Counter />} />
+            <Route path="/transition" element={<SearchWithUseTransition />} />
             <Route
               path="/desh"
               element={
