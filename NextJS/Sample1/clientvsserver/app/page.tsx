@@ -1,0 +1,11 @@
+import Title from './components/Title'
+import {User} from './components/User'
+export default function Home( ) {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      <h1>Hello world</h1>
+      <Title />
+      <User />
+    </div>
+  );
+}
