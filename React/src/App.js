@@ -11,6 +11,7 @@ import { RouterContext } from "./component/Authcontext";
 import { Trottle } from "./page/TrottleExample";
 import Counter from "./page/TestCounter.js";
 import { SearchWithUseTransition } from "./page/SearchWithUseTransition.js";
+import { InfiniteScroll } from "./page/InfiniteScroll.js";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/trottle" element={<Trottle />} />
             <Route path="/counter" element={<Counter />} />
             <Route path="/transition" element={<SearchWithUseTransition />} />
+            <Route path="/infinite" element={<InfiniteScroll />} />
             <Route
               path="/desh"
               element={
